@@ -1,0 +1,254 @@
+body {
+  padding: 0;
+  margin: 0;
+  
+}
+
+header {
+  background-color: rgb(17, 17, 17);
+  height: 72px;
+  width: fit-content;
+  
+  padding: 16px 64px;
+  
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #DFDEE0;
+  padding: 16px, 64px, 16px, 64px;
+  position: relative; /* Ensure header positioning is managed */
+  z-index: 10;
+  
+}
+
+.main {
+  height: 40px;
+  width: 1312px;
+  position: relative; 
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.left ul {
+  display: flex;
+  list-style: none;
+}
+.left ul li {
+  margin-right: 20px;
+ 
+}
+
+.left ul li a {
+  text-decoration: none;
+  color: white;
+  Width: 63px;
+  Height: 24px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.right button {
+  margin-left: 20px;
+  width: 134px;
+  height: 40px;
+  padding: 13px, 24px, 11px, 24px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: white;
+  border-radius: 5px;
+  border: none;
+
+  /* Added margin for spacing between buttons */
+}
+
+.whitepaper {
+  background-color: #7B6B67;
+
+
+}
+
+.getstarted {
+  background-image: linear-gradient(to right, #A85BC0, #C65EC6);
+  width: 134px;
+  height: 40px;
+  padding: 13px, 24px, 11px, 24px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+
+/* Upper one this was all header and navbar */
+
+
+/* now center box  with all perosn images */
+
+.newAIgen {
+  width: 313px;
+  /* Set width */
+  height: 38px;
+  /* Set height */
+  border-radius: 9px;
+  /* Set border radius */
+  padding: 4px 12px;
+  gap: 8px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #141414;
+  color: white;
+  border-radius: 5px;
+
+}
+
+.IOTA-syrum {
+  width: 660px;
+  height: 494.5px;
+  padding-top: 127.58px;
+  margin-left:  175.54px;
+}
+
+.IOTA-syrum>h1 {
+  width: 660px;
+  height: 118px;
+  font-size: 48px;
+  line-height: 59px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #DFDEE0;
+}
+.IOTA-section {
+  display: flex;
+
+}
+.main-container{
+  width: 1440px;
+  height: 1292px;
+ background-image: linear-gradient(to bottom, #000000, #382854);
+
+}
+.allimages{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 633px;
+  height: 740px;
+  margin-top: -93.45px;
+  
+ 
+}
+.text{
+  height: 80px;
+  width: 660px;
+  font-size: 24px;
+  line-height: 40px ;
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #DFDEE0;
+}
+.allimages img{
+ 
+  border-radius: 21.61px;
+}
+.first, .second, .third {
+  z-index: 2;
+  opacity: 1;
+}
+.backgroundimage{
+  display: flex;
+  justify-content: center;
+}
+
+/* How it works section */
+
+.how-works{
+  display: flex;
+  background-image: linear-gradient(to top, #000000, #382854);
+  width: 1440px;
+  height: 659px;
+  align-items: center;
+
+}
+.how-works>div>img{
+  height: 508px;
+  width: 816px;
+  margin-top: 75.86px;
+  border-radius: 16px;
+
+}
+.how-works>div>h1{
+  color:#DFDEE0 ;
+  font-size: 64px;
+  line-height: 64px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-left: 20px;
+}
+.how-works>div>h3{
+  color:#5CC3FA ;
+  font-size: 48px;
+  line-height: 64px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-left: 20px;
+}
+.how-works>div>p{
+  color:#DFDEE0 ;
+  font-size: 48px;
+  line-height: 64px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-left: 20px;
+  
+}
+.text-container{
+  width: 596px;
+  height: 352px;
+  gap: 32px;
+}
+
+/* Categories */
+.categories{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-image: linear-gradient(to top, #382854, #000000);
+  justify-content: center;
+
+  
+
+}
+.categories p{
+  padding: 20px 40px;
+  background-image: linear-gradient(to top, #583D80, #FFFFFF);
+  border-radius: 5px;
+
+  
+}
